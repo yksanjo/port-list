@@ -1,0 +1,19 @@
+{
+  "name": "port-list",
+  "version": "1.0.0",
+  "description": "List all listening ports on the system",
+  "main": "src/index.js",
+  "bin": {
+    "port-list": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["port", "list", "listening"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0"
+  }
+}
